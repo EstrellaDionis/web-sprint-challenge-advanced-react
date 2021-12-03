@@ -53,6 +53,7 @@ test("shows success message on submit with form details", async () => {
         expect(cityDisplay).toBeInTheDocument();
         expect(zipDisplay).toBeInTheDocument();
 
-        
+        const successMessage = screen.getByTestId('successMessage');
+        expect(successMessage).toBeInTheDocument();
     })
 });
