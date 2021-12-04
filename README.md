@@ -117,9 +117,12 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a stateful and a functional component?
-
+Functional components simply accept data and display them while stateful components implement logic and state.
 
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
+componentWillMount - is called before the component is rendered for the first time.
+
+componentWillUpdate - is caleld before the re-rendering of the component takes place.
 
 3. Define stateful logic.
 Stateful logic is logic that is built into a component that can be used for later and by multiple components. It can do almost anything including, handling click events and toggles.
