@@ -118,8 +118,18 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What are the main differences between a stateful and a functional component?
 
+
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
 
 3. Define stateful logic.
+Stateful logic is logic that is built into a component that can be used for later and by multiple components. It can do almost anything including, handling click events and toggles.
+
+
 
 4. What are the three step of creating a successful test? What is done in each phase? 
+Arrange- This renders a react element into a virtual DOM and are meant for setting up our test cases.
+
+Act- This covers the main things that are to be tested. Some examples are calling an API or a function.
+
+Assert- These are the outcomes we expect. An example of this would be checking if input has been put into a form and can be submitted by clicking a submit button.
+
